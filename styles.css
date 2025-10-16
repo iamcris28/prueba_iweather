@@ -1,0 +1,36 @@
+CSS
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilos para el efecto de vidrio en las tarjetas */
+.card {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    color: white;
+}
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+}
+
+/* Estilos para los menús emergentes */
+.menu-popup {
+    background-color: #f3f4f6;
+    color: #1f2937;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+}
+
+.menu-popup-item:hover {
+    background-color: #e5e7eb;
+}
+
+/* Gradiente para la barra de UV */
+.uv-gradient {
+    background: linear-gradient(to right, lime, yellow, orange, red, purple);
+}
