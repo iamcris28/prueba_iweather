@@ -1,4 +1,4 @@
-JAVASCRIPT
+//JAVASCRIPT
 document.addEventListener('DOMContentLoaded', function () {
     // Elementos de Modals/Popups
     const loginModal = document.getElementById('login-modal');
